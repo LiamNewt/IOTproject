@@ -1,1 +1,35 @@
+IOT-Project Summary 
 
+Our project is based on a self-opening bin, the bin will use Arduino Yun with an ultrasonic detector which will pick up the distance of an object or a human hand from the bin. By using this ultrasonic detector, we will set a suitable distance from which an object is to be held to set off the sensor to signal the bin to open. 
+
+The ultrasonic detector has the ability to read back the distance of an object from the sensor which will help massively in regard to not setting the bin off by walking past, with this feature in mind we can set the ultrasonic detector to ignore movement from a certain distance. 
+
+Components used: 
+
+Arduino Yun: It is an Arduino board with two processors, it is the most advanced Arduino board, it's a Microcontroller board with built in Wi-Fi which allows it to connect to the internet. 
+
+Servo motor: Controls the movement of the bins lid. 
+
+Ultrasonic sensor: Used to measure the distance between the bin and the object. 
+
+LED: This will be used to show the bin is in action and working. 
+
+Display: Used as part of the design which will display “Bin your rubbish” and will also display “Bin almost full please empty”. 
+
+How the Bin will function: 
+
+Ultrasonic sensor detects object. 
+
+The Arduino processes the ultrasonic sensors input and triggers the servo motor. 
+
+The servo motor activates and opens the bin lid. 
+
+After a few seconds or once the ultrasonic sensor stops detecting an object the servo motor closes the bin lid. 
+
+Theory behind the code: 
+
+Measure the distance with ultrasonic sensor. 
+
+If the distance is to what is set open the bin lid. 
+
+After a delay close the bin lid. 
