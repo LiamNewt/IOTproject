@@ -1,0 +1,29 @@
+Types of Data Generated 
+
+Ultrasonic Sensor data: Measures distance between the sensor and the object. 
+
+Distance 
+
+Status of lid 
+
+Servo motor data: Data related to operation of the lid. 
+
+Angle 
+
+Movement commands 
+
+ 
+
+Storing data: 
+
+We plan to use a pushing box to store and send it to a spreadsheet it will protect the data being sent. 
+
+The Arduino Yun has a micro-SD card which can be used to store sensor data in a simple format. It can also save CSV files which will record distance measurements, timestamps and servo movements. 
+
+Data management: 
+
+Data management will all be done through spreadsheets. 
+
+ 
+
+ 
